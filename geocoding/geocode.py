@@ -3,7 +3,7 @@
 import geocoder
 import pandas as pd
 
-wk_dir = "C:\\cygwin64\\home\\mohammed.akbar\\git_files\\snippets\\geocoding\\"
+wk_dir = "..."
 input_file = wk_dir + 'sample_addresses.xlsx'
 output_file = wk_dir + 'geocoded_results.xlsx'
 
@@ -22,7 +22,7 @@ def find_map_coordinates(known_address):
     :latitude, longitude, accuracy, valid_address: values of latitude and longtitude for the input address
     """
     try:
-        location = geocoder.bing(known_address, key = 'AsbHXxf7M04WU4ckmJujP0-ZoB5t0qnlxKttB4IA72YIEbC0eXP-pxOvlgsA-Esa')
+        location = geocoder.bing(known_address, key = 'APi-Key')
         return location.lat, location.lng, location.confidence, location.address
     except IndexError:
         return 0
