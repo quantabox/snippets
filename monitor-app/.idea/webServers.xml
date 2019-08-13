@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="30e7da78-8665-439b-bc5c-f1f19fbccc04" name="disc2 - mypy3" url="http://sl01plpchd023.wellpoint.com">
+        <fileTransfer host="sl01plpchd023.wellpoint.com" port="22" rootFolder="/home/ag02628" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
